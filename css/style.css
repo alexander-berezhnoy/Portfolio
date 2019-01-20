@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+  font-family: "Lato";
+}
+/* My color scheme*/
+.svg-logo {
+  height: 2rem;
+  width: 2rem;
+}
+
+.svg-logo-lg {
+  height: 4rem;
+  width: 4rem;
+}
+
+.navbar,
+.header,
+section {
+  font-family: "Lato", sans-serif;
+}
+/* Navbar Styling*/
+.navbar {
+  background: #eaeaea;
+}
+
+body {
+  background-color: #eaeaea;
+  color: #231f20;
+}
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:focus,
+.card-link:focus,
+.card-link {
+  color: #ad974f;
+  cursor: pointer;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  margin-right: 1em;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-brand:hover,
+.card-link:hover {
+  color: #8e793e;
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+  color: #8e793e;
+  border-bottom: 3px solid #8e793e;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-light .navbar-nav .callToAction,
+.navbar-light .navbar-nav .callToAction:focus,
+.navbar-brand:focus,
+.callToAction,
+.card-link .callToAction {
+  border: 1px solid #ad974f;
+  background-color: #ad974f;
+  color: #eaeaea;
+}
+
+.navbar-light .navbar-nav .callToAction:hover,
+.callToAction:hover,
+.card-link .callToAction:hover {
+  border: 1px solid #8e793e;
+  background-color: #8e793e;
+  color: #eaeaea;
+}
+
+.navbar-light .navbar-nav {
+  color: #ad974f;
+  border-color: #ad974f;
+}
+
+/*header style*/
+.header {
+  background-image: url("../images/headerback.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background-color: #231f20;
+  opacity: 0.79;
+}
+
+.btn-outline-primary {
+  border: 1px solid #eaeaea;
+  color: #eaeaea;
+}
+.btn-outline-primary:hover {
+  border: 1px solid #8e793e;
+  background-color: #8e793e;
+  color: #eaeaea;
+}
+.description {
+  position: absolute;
+  top: 30%;
+  margin: auto;
+  padding: 2em;
+  text-align: center;
+}
+.description h1 {
+  color: #ad974f;
+}
+.description p {
+  color: #eaeaea;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* About styling*/
+.about {
+  margin: 4em 0;
+  padding: 1em;
+  position: relative;
+  background-color: #eaeaea;
+  color: #231f20;
+}
+.about h1 {
+  color: #ad974f;
+}
+.about img {
+  height: 100%;
+  width: 100%;
+}
+.about span {
+  color: #8e793e;
+}
+.about .desc {
+  padding: 2em;
+}
+.about .desc h3 {
+  color: #ad974f;
+}
+.about .desc p {
+  line-height: 2;
+}
+
+.fa-arrow-left {
+  color: #8e793e;
+}
+
+section h1 {
+  text-transform: uppercase;
+  color: #ad974f;
+  text-align: center;
+  margin-top: 50px;
+}
+
+hr.style-five {
+  border: 0;
+  height: 0; /* Firefox... */
+  box-shadow: 0 0 10px 1px #8e793e;
+  width: 40%;
+  margin-bottom: 4rem;
+}
+hr.style-five:after {
+  /* Not really supposed to work, but does */
+  content: "\00a0"; /* Prevent margin collapse */
+}
+/* Projects Styling */
+.projects {
+  margin: 4em 0;
+  position: relative;
+  color: #231f20;
+}
+
+.projects h1 {
+  color: #ad974f;
+}
+.projects .card {
+  box-shadow: 0 0 20px #ccc;
+}
+.projects .card img {
+  width: 100%;
+  height: 12em;
+}
+.projects .card-title {
+  color: #ad974f;
+}
+.projects .card-body {
+  padding: 1em;
+}
+
+.card-link {
+  padding: 0.5rem;
+}
+
+/* Contact form styling*/
+.contact-form {
+  margin: 6em 0;
+  position: relative;
+}
+.contact-form h1 {
+  color: #ad974f;
+}
+.contact-form .right {
+  max-width: 600px;
+}
+
+.contact-form .right .form-control::placeholder {
+  color: #eaeaea;
+  font-size: 16px;
+}
+
+.form-control {
+  border: 1px solid #231f20;
+}
+
+.form-control:focus {
+  border: 2px solid #ad974f;
+}
+
+textarea .form-control {
+  resize: none;
+  font-size: 16px;
+  line-height: 15px;
+}
+
+form {
+  width: 75%;
+  text-align: center;
+}
+
+/* Resume styling*/
+.resume {
+  color: #231f20;
+}
+.resume h1,
+.resume h3 {
+  color: #ad974f;
+  text-transform: uppercase;
+}
+
+.resume h3 {
+  font-size: 20px;
+  margin-top: 10px;
+  letter-spacing: 0.2rem;
+  font-weight: 800;
+}
+
+.resume p,
+resume li {
+  color: #231f20;
+}
+
+.resume p {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.resume-avatar {
+  height: 175px;
+  width: 175px;
+}
+
+.resume-body {
+  border: 15px solid #8e793e;
+  max-width: 700px;
+  padding: 20px;
+  width: 80%;
+  margin: 20px auto;
+  background-color: white;
+}
+
+.resume li {
+  list-style-type: none;
+  color: #231f20;
+}
+
+.resume a {
+  color: #231f20;
+}
+
+li .fas {
+  color: #8e793e;
+  margin-right: 10px;
+}
+
+.resume ul {
+  margin: 5px;
+  padding: 5px;
+}
+
+.year {
+  font-weight: 800;
+}
+
+.resume .fa:hover,
+.resume .fab:hover {
+  opacity: 0.7;
+}
+
+.resume .fa-linkedin:hover {
+  color: #007bb5;
+  background: white;
+}
+
+.resume .fa-at:hover {
+  color: #b23121;
+}
+
+.resume .fa-github-square:hover {
+  color: violet;
+}
+
+footer {
+  background-color: #231f20;
+  height: 100px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links a i {
+  background-color: #231f20;
+  color: #eaeaea;
+  font-size: 3em;
+  padding: 8px;
+  margin: auto;
+}
